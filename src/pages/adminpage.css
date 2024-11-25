@@ -1,0 +1,27 @@
+.Container {
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.button {
+  background-color: #007bff; /* Blue button */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
